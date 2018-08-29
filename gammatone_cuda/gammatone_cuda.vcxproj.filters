@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="gammatone.cu">
+      <Filter>gammatone</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gammatone">
+      <UniqueIdentifier>{9ff10e61-534a-4b17-8b7a-f79a6a442cb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gammatone.h">
+      <Filter>gammatone</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
